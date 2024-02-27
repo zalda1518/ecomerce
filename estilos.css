@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.3s;
+
+}
+
+#main {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+#nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border: solid 1px;
+    height: 50px;
+    background-color: rgb(168, 166, 162);
+}
+
+#t1 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 80%;
+    height: 50px;
+
+}
+
+#menu {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 50px;
+
+}
+
+
+.container-car {
+    display: flex;
+    background-color: rgb(199, 198, 198);
+    width: 22%;
+    height: 400px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1%;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 5px 1px 5px;
+    box-sizing: border-box;
+}
+
+.hijos {
+    margin-top: 10px;
+}
+
+#imagen-hijo {
+    width: 250px;
+    height: 220px;
+}
+
+#agregar-hijo-1,
+#agregar-hijo-2,
+#agregar-hijo-3,
+#agregar-hijo-4,
+#agregar-hijo-5,
+#agregar-hijo-6,
+#agregar-hijo-7,
+#agregar-hijo-8,
+#agregar-hijo-9,
+#agregar-hijo-10 {
+    
+    background-color: rgb(30, 253, 97);
+    width: 50%;
+    height: 8%;
+    border-radius: 10%;
+    border: none;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.btn-crear:hover{
+    cursor: pointer;
+    box-shadow: 1px 5px 3px 5px;
+}
+
+
+#stock-productos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin-left: 1%;
+}
+
+#sub-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.iconos {
+    box-sizing: border-box;
+    width: 30px;
+    height: 47px;
+    padding: 3px;
+}
+
+#display-contador-carrito {
+    color: rgb(25, 39, 231);
+    font-size: 18px;
+    font-weight: bold;
+    height: 20px;
+
+
+}
+
+.iconos:hover {
+    cursor: pointer;
+    background-color: rgb(30, 253, 97);
+    border-radius: 50%;
+}
+
+#sub-menu-2 {
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.iconos-sub-menu-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.elementos-carrito {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    border: solid 1px;
+}
+
+
+#contenedor-carrito{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+    
+}
+.hijo-carrito {
+    display: flex;
+    width: 14%;
+    margin: 1%;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: rgb(225, 238, 210);
+    border-radius: 5%;
+}
+
+.botones:hover{
+    cursor: pointer;
+    box-shadow: 1px 5px 3px 5px;
+}
+
+.item-car {
+    margin: 5px;
+    font-size: 10px;
+
+}
+
+#img-item-car {
+    width: 100px;
+}
+
+.ventana-modal{
+    background-color: rgb(98, 114, 108);
+    display: none;
+    position: fixed;
+    opacity: 98%;
+    top: 2%;
+    left: 15%;
+    padding: 2%;
+    flex-direction: column;
+    width: 60%;
+    max-height: 80%;
+    border-radius: 5%;
+    overflow-y: scroll;
+}
+
+.botones-modal{
+    margin: auto;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.cerrar-modal{
+    display: flex;
+    position: fixed;
+    left: 45%;
+    top: 30px;
+    height: 5%;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1%;
+    font-size: larger;
+    border: none;
+    border-radius: 5%;
+   
+    box-shadow: 1px 5px 3px 1px;
+ }
+
+#cerrar-ventana-modal{
+   width: 30%;
+   background-color: rgb(253, 78, 30);
+}
+#comprar-ventana-modal{
+    width:50% ;
+    background-color: rgb(30, 253, 97);
+}
+
